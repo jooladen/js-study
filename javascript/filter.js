@@ -28,3 +28,14 @@ const total2 = emp.reduce((acc, e, idx) => {
 }, 0);
 
 console.log(`🔥 총 연봉 합계: ${total2}`);
+
+//reduce exam
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((acc, num) => acc + num, 0);
+
+console.log("Sum of numbers:", sum); // Output: Sum of numbers: 15
+const product = numbers.reduce((acc, num) => acc * num, 1);
+
+console.log("Product of numbers:", product); // Output: Product of numbers: 120
+console.log("raised >>> ", raised);   
